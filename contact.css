@@ -1,0 +1,49 @@
+.body_contact{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#a39038;
+  }
+.contact_wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.phone{
+    margin: 7px 7px 0px 7px;
+    padding: 50px;
+    background-color:aliceblue;
+    font-size: 22px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fed118;
+    background-color: #181818;
+
+}
+.phoneNicon{
+    display: inline;
+}
+.copy_icon{
+    border: solid 2px #fed01860;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fed118;
+}
+.copy_icon:hover{
+    color: #7f6913;
+}
+
+.icon{
+    padding-right: 20px;
+}
+.the_number{
+    display: inline;
+}
+@media (max-width:992px) {
+    .contact_wrapper{
+        display: block;
+    }
+}
